@@ -9,6 +9,6 @@ public class HelloTest extends TestCase {
     assertEquals("Hello from Java!", hello.KotlinHelloKt.getHelloStringFromJava());
 
     System.out.println(hello.KotlinHelloKt.getHelloStringFromJava());
-    
+    System.out.println(JavaHello.getHelloStringFromKotlin());
   }
 }
